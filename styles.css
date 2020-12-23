@@ -1,0 +1,168 @@
+*{
+padding:0;
+list-style: none;
+text-decoration: none;
+}
+
+#background{
+	width:100%;
+	height:100%;
+	background-color:#271333;
+}
+@media only screen and (max-width: 600px) {
+	#background{
+		background-color: #000000;
+		}
+	}
+
+.menu img{
+	width:70px;
+	margin:40px;
+}
+
+.menu ul{
+	display: inline-flex;
+	list-style-type: none;
+	font-size:20px;
+	
+	font-family:monospace;
+	margin-top: 0px;
+	margin-left:45%;
+	font-weight: bold;
+}
+.menu ul li{
+	padding:20px;
+}
+
+.menu ul li a{
+	color:#99FFFF;
+	padding:15px 25px;
+}
+
+.menu ul li a:hover{
+	background:#2196f3;
+	box-shadow:0 0 10px #2196f3, 0 0 40px #2196f3,0 0 80px #2196f3;
+}
+
+#background h1{
+	font-family: serif;
+	margin-left: 10%;
+	color:#FF9999;
+	font-size: 60px;
+
+}
+.second{
+	font-family: serif;
+	margin-left: 10%;
+	color:#33FF33;
+
+}
+
+.first{
+	font-family: serif;
+	margin-left: 10%;
+	margin-top:10%;
+	color:#33FF33;
+}
+
+.image{
+	float: right;
+	margin-right:170px;
+	position: relative;
+	top:-325px;
+}
+
+.alert-success{
+	margin-left:45%;
+	margin-top:20%;
+}
+.contactbackground{
+	width:100%;
+	height:100%;
+	background-image: url('2.jpg');
+	background-position: center;
+	opacity:0.7;
+}
+
+.middle-left{
+	position: absolute;
+    top: 30%;
+    left:10%;    
+}
+
+.contact{
+	color:#FDFEFE;
+	
+	text-decoration: underline wavy red;
+}
+.middle-left h2{
+	font-style: italic;
+	font-size: 25px;
+	color:#FF6F00;
+}
+.aboutbackground{
+	height:100%;
+	background-size: cover;
+	background-image: url('4.jpg');
+	background-position: center;
+
+}
+.text{
+	padding:80px;
+	text-shadow: 3px 3px 7px CHARTREUSE;
+	font-weight: bold;
+	font-style: italic;
+	font-family: sans;
+	font-size:80px;
+	color:#330033;
+}
+.detail{
+	margin-left:10%;
+	color:#000000;
+  	text-shadow:2px 2px 3px salmon;
+}
+.detail h2{
+	padding:20px;
+}
+.ibackground{
+	height:100%;
+	background-size: cover;
+	background-image: url('3.jpg');
+	font-weight: bold;
+	font-size:70px;
+	color:#880E4F;
+	padding:3%;
+}
+table{
+	margin-left:20%;
+	margin-top:3%;
+	border:3.5px solid indigo;
+	width:50%;
+
+}
+
+td{
+	border:2.3px dotted indigo;
+	padding:30px;
+	text-align: center;
+	font-size:25px;
+	font-weight: bold;
+	font-style: italic;
+}
+td:hover{
+	background-color:#FFE4E1;
+}
+
+.row{
+	padding:2%;
+	font-size:20px;
+	color:#008000;
+}
+
+.col-sm{
+	margin-top:1%;
+	padding:1.5%;
+	border-radius: 70px;
+	border-color:#331400;
+	border-style: double;
+}

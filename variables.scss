@@ -1,0 +1,18 @@
+$border-dark:#04BE00;
+
+.alert-success{
+	border:1px solid $border-dark;
+}
+
+.contact{
+	font:{
+	weight:bold;
+	size:35px;
+	}
+}
+%message{
+	font-style:italic;
+}
+.alert-success{
+	@extend %message;
+}
